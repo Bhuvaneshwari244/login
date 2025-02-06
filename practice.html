@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://127.0.0.1:5500/practice.html#heading1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>practice</title>
+    </head>
+    <body>
+        <h1 id="heading1">welcome to my page</h1>
+
+        <p color="red">this is bonu</p>
+
+        <p></p><h1>paragraphs types</h1><p></p>
+        <p>
+            introduction this is bhuvaneshwari
+        </p>
+        <p>
+            introduction
+            this is bhuvaneshwari
+        </p>
+        <p>
+            introduction<br>
+            this is bhuvaneshwari
+        </p>
+        <p>
+            introdution<br>this is bhuvaneshwari
+        </p>
+
+        <p></p><h1>id attributes</h1><p></p>
+        <p id="firstParagraph">my first class</p>
+        <p id="anotherParagraph">second class</p>
+
+        <p></p><h1>types of headings</h1><p></p>
+        <h1>heading 1</h1>
+        <h2>heading 2</h2>
+        <h3>heading 3</h3>
+        <h4>heading 4</h4>
+        <h5>heading 5</h5>
+        <h6>heading 6</h6>
+        <h7>heading 7</h7><br>
+        <h8>heading 8</h8>
+
+        <p></p><h1>image insertion</h1><p></p>
+        <img src="./practice_files/microphone.png">
+        <img src="./practice_files/microphone.jpg"><br>
+        <img src="file:///C:/html-code" alt="microphone">
+        <img src="./practice_files/microphone.jpg" alt="microphone" width="400" height="400">
+
+        <p></p><h1>hyperlinks</h1><p></p>
+        <a href="http://127.0.0.1:5500/www.facebook.in">gmail.com</a>
+        <a href="https://www.linkedin.com/company/coddy-tech/">coddy-tech</a>
+        
+        <p></p><h1>linking to elements</h1><p></p>
+        <h2 id="heading">welcome to the USA</h2>
+        <p id="text">hi <br> hello <br> a very warm wishes to users those who are intersted to join our website</p>
+        <a href="http://127.0.0.1:5500/practice.html#heading1">go back to top</a>
+
+        <p></p><h1>types of lists</h1><p></p>
+        <h2>ordered lists</h2>
+        <ol>
+            <li>coffee</li>
+            <li>tea</li>
+            <li>black tea</li>
+        </ol>
+        <ol>
+            <li>functions:
+                <ol>
+                    <li>logarithmic</li>
+                    <li>exponential</li>
+                </ol>
+            </li>
+            <li>working with functions:
+                <ol>
+                    <li>addition</li>
+                    <li>subtraction</li>
+                    <li>multiplication</li>
+                    <li>division</li>
+                </ol>
+            </li>
+        </ol>
+        <ol>
+            <li>functions:
+                    <ol>logarithmic</ol>
+                    <ol>exponential</ol>
+            </li>
+            <li>working with functions:
+                    </li><li>addition</li>
+                    <li>subtraction</li>
+                    <li>multiplication</li>
+                    <li>division</li>
+            
+        </ol>
+        <h5>types of ordered lists</h5>
+        <ol>
+            <li type="1">one</li>
+        </ol>
+        <ol>
+            <li type="A">two</li>
+        </ol>
+        <ol>
+            <li type="a">three</li>
+        </ol>
+        <ol>
+            <li type="I">four</li>
+        </ol>
+        <ol>
+            <li type="i">five</li>
+        </ol>
+
+        <h2>unorderd lists</h2>
+        <ul>
+            <li>coffee</li>
+            <li>tea</li>
+            <li>black tea</li>
+        </ul>
+        <h5>types of unorderd lists</h5>
+        <ul>
+            <li type="disc">one</li>
+            <li type="square">two</li>
+            <li type="circle">three</li>
+        </ul>
+
+        <h1>bold and italic</h1>
+        <strong>bold</strong><br>
+        <b>bold</b>
+        <p>i learning <strong>html</strong> language</p>
+
+        <i>italic</i><br>
+        <em>italic</em>
+        <p>i learning <em>html</em> language</p>
+
+        <h1>lines</h1>
+        <p>i am bonu</p>
+        <hr>helloo this is bonu
+        <p>welcome</p>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
