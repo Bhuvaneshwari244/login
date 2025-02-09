@@ -1,0 +1,17 @@
+div{
+    background-color: blue;
+    width: 500px;
+    height: 30px;
+}
+p{
+  color: coral;
+}
+#myelement {
+    color: darkred;
+    text-align: center;
+}
+.box {
+    background-color: darkmagenta;
+    width: 300px;
+    height: 40px;
+}
